@@ -26,6 +26,6 @@ jobs:
        uses:JamesIves/github-pages-deploy-action@releases/v4
        with:
          token: ${{secrets.PAT}}
-         repository-name: a
+         repository-name: a/.github/workflows/index.html
          branch: main
          folder: public
