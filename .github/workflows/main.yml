@@ -26,6 +26,6 @@ jobs:
        uses:JamesIves/github-pages-deploy-action@releases/v4
        with:
          token: ${{secrets.PAT}}
-         repository-name: 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
+         repository-name: a
          branch: main
          folder: public
